@@ -1,5 +1,6 @@
 <script>
 	import { pwaInfo } from 'virtual:pwa-info';
+	import '../app.css';
 
 	$: webManifestLink = pwaInfo ? pwaInfo.webManifest.linkTag : '';
 </script>
