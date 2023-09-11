@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Jujutsu Kaisen';
+    font-weight: normal;
+    src: url('fonts/jjk.ttf') format('truetype')
+}
+
+body {
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.1;
+    letter-spacing: 0em;
+}

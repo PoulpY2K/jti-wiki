@@ -14,7 +14,7 @@ export default defineConfig({
 			manifest: {
 				name: 'Jujutsu Tech International Wiki',
 				short_name: 'JTI Wiki',
-				theme_color: '#8b0000',
+				theme_color: '#7a0000',
 				icons: [
 					{
 						src: 'icons/pwa-64x64.png',
