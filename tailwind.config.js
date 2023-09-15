@@ -2,7 +2,14 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			colors: {
+				jti: '#7a0000'
+			},
+			fontFamily: {
+				'jti': ['Jujutsu Kaisen', 'sans-serif']
+			}
+		}
 	},
 	plugins: []
 };
