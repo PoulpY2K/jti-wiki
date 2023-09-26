@@ -5,6 +5,7 @@
 	$: webManifestLink = pwaInfo ? pwaInfo.webManifest.linkTag : '';
 </script>
 
+<!-- eslint-disable svelte/no-at-html-tags -->
 <svelte:head>
 	{@html webManifestLink}
 </svelte:head>

@@ -7,7 +7,7 @@ export default {
 				jti: '#7a0000'
 			},
 			fontFamily: {
-				'jti': ['Jujutsu Kaisen', 'sans-serif']
+				jti: ['Jujutsu Kaisen', 'sans-serif']
 			}
 		}
 	},
